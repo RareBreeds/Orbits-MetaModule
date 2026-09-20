@@ -1,0 +1,20 @@
+{
+  "MetaModuleBrandName": "RareBreeds",
+  "MetaModulePluginMaintainer": "Rare Breeds",
+  "MetaModulePluginMaintainerEmail": "rare.breeds@protonmail.com",
+  "MetaModulePluginMaintainerUrl": "https://github.com/RareBreeds/Orbits",
+  "MetaModuleDescription": "Rare Breeds plugins for MetaModule",
+  "MetaModuleIncludedModules":
+  [
+    {
+      "slug": "RareBreeds_Orbits_Eugene",
+      "name": "Eugene",
+      "displayName": "Eugene"
+    },
+    {
+      "slug": "RareBreeds_Orbits_Polygene",
+      "name": "Polygene",
+      "displayName": "Polygene"
+    }
+  ]
+}
