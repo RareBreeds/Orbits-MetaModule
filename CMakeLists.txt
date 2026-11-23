@@ -18,7 +18,7 @@ project(Orbits VERSION 0.1 DESCRIPTION "Orbits for MetaModule" LANGUAGES C CXX A
 add_library(Orbits STATIC)
 
 # Add sources from the Rack source repo
-set(SOURCE_DIR ${CMAKE_CURRENT_LIST_DIR}/../Orbits)
+set(SOURCE_DIR ${CMAKE_CURRENT_LIST_DIR}/Orbits)
 
 target_sources(Orbits PRIVATE
         ${SOURCE_DIR}/src/Eugene.cpp
