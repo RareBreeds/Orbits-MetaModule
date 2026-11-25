@@ -25,13 +25,13 @@ target_sources(Orbits PRIVATE
         ${SOURCE_DIR}/src/EugeneModule.cpp
         ${SOURCE_DIR}/src/EugeneWidget.cpp
         ${SOURCE_DIR}/src/OrbitsModule.cpp
+        ${SOURCE_DIR}/src/OrbitsRhythm.cpp
         ${SOURCE_DIR}/src/OrbitsSkinned.cpp
         ${SOURCE_DIR}/src/OrbitsWidget.cpp
         ${SOURCE_DIR}/src/plugin.cpp
         ${SOURCE_DIR}/src/Polygene.cpp
         ${SOURCE_DIR}/src/PolygeneModule.cpp
-        ${SOURCE_DIR}/src/PolygeneWidget.cpp
-        ${SOURCE_DIR}/src/Rhythm.cpp)
+        ${SOURCE_DIR}/src/PolygeneWidget.cpp)
 
 # Add includes and compile options for source repo
 target_include_directories(Orbits PRIVATE ${SOURCE_DIR}/src)
